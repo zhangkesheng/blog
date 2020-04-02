@@ -1,8 +1,10 @@
 ---
 title: kubernetes-istio
 date: 2018-04-12 18:15:04
-tags: 笔记
-categories: Kubernetes
+tags: 
+  - Kubernetes
+  - istio
+categories: 笔记
 ---
 # kubernetes-istio
 

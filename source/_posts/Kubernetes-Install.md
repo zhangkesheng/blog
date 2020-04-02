@@ -1,8 +1,10 @@
 ---
 title: Kubernetes Install
 date: 2017-11-16 11:12:16
-tags: 笔记
-categories: Kubernetes
+tags: 
+  - Kubernetes
+  - bash
+categories: 笔记
 ---
 # 安装 Kubernetes
 

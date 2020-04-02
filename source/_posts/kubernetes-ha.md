@@ -1,8 +1,10 @@
 ---
 title: 部署高可用的k8s集群
 date: 2018-01-25 13:58:57
-tags: 笔记
-categories: Kubernetes
+tags: 
+  - Kubernetes
+  - bash
+categories: 笔记
 ---
 
 # Kubernetes HA

@@ -1,8 +1,10 @@
 ---
 title: Kubernetes安装脚本(docker-compose)
 date: 2018-01-25 14:17:17
-tags: 笔记
-categories: Kubernetes
+tags: 
+  - Kubernetes
+  - docker-compose
+categories: 笔记
 ---
 
 # Kubernetes安装脚本

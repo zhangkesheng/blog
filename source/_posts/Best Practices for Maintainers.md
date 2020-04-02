@@ -1,8 +1,9 @@
 ---
 title: 维护者的最佳实践
 date: 2018-01-30 11:12:16
-tags: 翻译
-categories: translate
+tags: 
+    - DevOps
+categories: 翻译
 ---
 
 # 维护者的最佳实践
