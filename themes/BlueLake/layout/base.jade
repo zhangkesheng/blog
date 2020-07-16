@@ -5,6 +5,20 @@ if page.title
 else
   - var current_title = config.title
 
+if page.keywords
+  - var current_keywords = page.keywords
+else if config.keywords
+  - var current_keywords = config.keywords
+else
+  - var current_keywords = current_title
+
+if page.desc
+  - var current_desc = page.desc
+else if config.description
+  - var current_desc = config.description
+else
+  - var current_desc = current_title
+
 if config.feed
   case config.feed.type
     when 'rss2'
@@ -21,9 +35,8 @@ html(lang='#{config.language}')
     meta(content='yes', name='apple-mobile-web-app-capable')
     meta(content='black-translucent', name='apple-mobile-web-app-status-bar-style')
     meta(content='telephone=no', name='format-detection')
-    meta(name='description', content=config.description)
-    if config.keywords
-      meta(name="keywords",content=config.keywords)
+    meta(name='description', content=current_desc)
+    meta(name="keywords",content=current_keywords)
     block title
     //- link(rel="stylesheet", type="text/css", href="//fonts.neworld.org/css?family=Source+Code+Pro")
     link(rel='stylesheet', type='text/css', href=url_for(theme.css) + '/style.css' + '?v=' + theme.version)
